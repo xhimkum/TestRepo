@@ -5,6 +5,7 @@ First, you will need to create a new repository on GitHub. You can learn how to 
 
 # create a new directory, and initialize it with git-specific functions
 >git init my-repo
+to simply initialize the git inside the folder by "git init"
 
 # change into the `my-repo` directory
 >cd my-repo
