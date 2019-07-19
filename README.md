@@ -81,6 +81,7 @@ Before proceeding, make sure all your changes are committed, including your .git
 To clear your repo, use:
 
 >git rm -r --cached .
+
 rm is the remove command
 -r will allow recursive removal
 –cached will only remove files from the index. Your files will still be there.
@@ -89,8 +90,10 @@ The rm command can be unforgiving. If you wish to try what it does beforehand, a
 
 #Step 3: Re add everything
 >git add .
+
 #Step 4: Commit
 >git commit -m ".gitignore fix"
+
 Your repository is clean :)
 
 Push the changes to your remote to see the changes effective there as well.
