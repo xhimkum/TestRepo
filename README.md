@@ -4,8 +4,8 @@
 First, you will need to create a new repository on GitHub. You can learn how to create a new repository in our Hello World guide. Do not initialize the repository with a README, .gitignore or License. This empty repository will await your code.
 
 # create a new directory, and initialize it with git-specific functions
->git init my-repo
-to simply initialize the git inside the folder by "git init"
+>"git init my-repo"
+to simply initialize the git inside the project folder use: "git init"
 
 # change into the `my-repo` directory
 >cd my-repo
@@ -54,3 +54,20 @@ to simply initialize the git inside the folder by "git init"
 #if origin already exists in the repository
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 It means pretty much what it says, the remote origin already exists, ie. you've already set it up before. You can type git remote -v to see what/where remotes are set. If you made a mistake before you can type "git remote rm origin" to clear it out and try again.
+###################################################
+#Connect your local project folder to your empty folder/repository on Github.
+The screen you should be seeing now on Github is titled 'Quick setup — if you’ve done this kind of thing before'.
+
+Copy the link in the input right beneath the title, it should look something like this: https://github.com/mindplace/test-repo.git This is the web address that your local folder will use to push its contents to the remote folder on Github.
+
+1.Go back to your project in the terminal/command line.
+
+2.In your terminal/command line, type git remote add origin [copied web address]
+
+Example: git remote add origin https://github.com/mindplace/test-repo.git
+
+3.Push your branch to Github: git push origin master
+
+4.Go back to the folder/repository screen on Github that you just left, and refresh it. The title 'Quick setup — if you’ve done this kind of thing before' should disappear, and you should see your files there.
+
+
