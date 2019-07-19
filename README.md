@@ -1,5 +1,5 @@
 #Read this documentation to understand about this repository.
-############################################################
+
 #Example: Start a new repository and publish it to GitHub
 First, you will need to create a new repository on GitHub. You can learn how to create a new repository in our Hello World guide. Do not initialize the repository with a README, .gitignore or License. This empty repository will await your code.
 
@@ -25,7 +25,7 @@ to simply initialize the git inside the project folder use: "git init"
 # push changes to github
 >git push --set-upstream origin master
 
-#####################################################
+
 #Example: contribute to an existing branch on GitHub
 # assumption: a project called `repo` already exists on the machine, and a new branch has been pushed to GitHub.com since the last time changes were made locally
 
@@ -50,11 +50,11 @@ to simply initialize the git inside the project folder use: "git init"
 >git push
 
 
-###############
 #if origin already exists in the repository
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
 It means pretty much what it says, the remote origin already exists, ie. you've already set it up before. You can type git remote -v to see what/where remotes are set. If you made a mistake before you can type "git remote rm origin" to clear it out and try again.\n
-###################################################
+
+
 #Connect your local project folder to your empty folder/repository on Github.
 The screen you should be seeing now on Github is titled 'Quick setup — if you’ve done this kind of thing before'.
 
