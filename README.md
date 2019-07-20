@@ -120,6 +120,16 @@ Delete a Local GIT branch
 To delete the local GIT branch we can try one of the following commands:
 >git branch -d branch_name
 >git branch -D branch_name
+************************************************
+To change the active branch:
+>git checkout branch_name
 
+To merge the branch to the master branch,you need to switch to master branch using `git checkout master`, then run:
+>git merge new_branch
+
+To see the current active branch:
+>git branch
+
+the active branch shown with astrick sign as `*master/any_branch`.
 
 
