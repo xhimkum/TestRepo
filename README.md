@@ -55,7 +55,7 @@ to simply initialize the git inside the project folder use: "git init"
 
 #if origin already exists in the repository
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-It means pretty much what it says, the remote origin already exists, ie. you've already set it up before. You can type 'git remote -v' to see what/where remotes are set. If you made a mistake before you can type 'git remote rm origin' to clear it out and try again.\n
+It means pretty much what it says, the remote origin already exists, ie. you've already set it up before. You can type `git remote -v` to see what/where remotes are set. If you made a mistake before you can type `git remote rm origin` to clear it out and try again.\n
 
 ************************************************************************************************
 
