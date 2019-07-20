@@ -98,4 +98,24 @@ Your repository is clean :)
 
 Push the changes to your remote to see the changes effective there as well.
 
+#To remove the .git from the project folder
+> rm -rf .git
+
+Execute this command inside the folder where you want  to remove the git.
+
+************************************************
+Create a new branch:
+>git checkout -b feature_branch_name
+
+Edit, add and commit your files.
+Push your branch to the remote repository:
+
+>git push -u origin feature_branch_name
+
+Delete a Local GIT branch
+To delete the local GIT branch we can try one of the following commands:
+>git branch -d branch_name
+>git branch -D branch_name
+
+
 
