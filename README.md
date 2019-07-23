@@ -1,7 +1,6 @@
 #Read this documentation to understand about this repository.
 
 ************************************************************************************************
-
 #Example: Start a new repository and publish it to GitHub
 
 First, you will need to create a new repository on GitHub. You can learn how to create a new repository in our Hello World guide. Do not initialize the repository with a README, .gitignore or License. This empty repository will await your code.
@@ -132,5 +131,27 @@ To see the current active branch:
 >git branch
 
 the active branch shown with astrick sign as `*master/any_branch`.
+
+****************************************************
+if this error occur while `pull` `git pull`
+****There is no tracking information for the current branch.
+    Please specify which branch you want to merge with.
+    See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream develop origin/<branch>****
+
+Or you could set it up so that your local master branch tracks github master branch as an upstream:
+
+>git branch --set-upstream-to=origin/master master
+>git pull
+*********************************
+How to deal with "refusing to merge unrelated histories" error 
+>git pull --allow-unrelated-hestories 
+
+*************************
 
 
