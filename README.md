@@ -150,7 +150,7 @@ Or you could set it up so that your local master branch tracks github master bra
 >git pull
 *********************************
 How to deal with "refusing to merge unrelated histories" error 
->git pull --allow-unrelated-hestories 
+>git pull origin branchname --allow-unrelated-histories
 
 *************************
 
